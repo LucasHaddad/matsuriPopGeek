@@ -6,9 +6,9 @@
       <v-spacer></v-spacer>
       <v-img id="logo" :src="require('./assets/logo.png')"/>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat>Link One</v-btn>
-        <v-btn flat>Link Two</v-btn>
-        <v-btn flat>Link Three</v-btn>
+        <v-btn to="/" flat>O EVENTO</v-btn>
+        <v-btn to="/about" flat>PROGRAMAÇÃO</v-btn>
+        <v-btn to="/promo" flat>INGRESSOS</v-btn>
       </v-toolbar-items>
       <v-spacer></v-spacer>
       <v-btn
@@ -19,30 +19,18 @@
         <span class="mr-2">COMPRAR INGRESSOS</span>
       </v-btn>
     </v-toolbar>
-    <v-content>
-      <HelloWorld/>
-    </v-content>
+    <router-view></router-view>
   </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue';
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-  },
-  data() {
-    return {
-      //
-    };
-  },
-};
-</script>
-
 <style>
-#app {
+body {
+  margin: 0 auto;
+  overflow: hidden;
   background-image: url("./assets/background.png");
+}
+
+#app {
+  background: inherit;
 }
 </style>
