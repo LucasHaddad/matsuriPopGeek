@@ -26,6 +26,7 @@
 </template>
 
 <style>
+
 body {
   margin: 0 auto;
   overflow: hidden;
@@ -34,5 +35,9 @@ body {
 
 #app {
   background: inherit;
+}
+
+.v-toolbar {
+  font-family: 'Fjalla One', sans-serif;
 }
 </style>
