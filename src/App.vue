@@ -4,7 +4,9 @@
       <v-toolbar-side-icon>
       </v-toolbar-side-icon>
       <v-spacer></v-spacer>
-      <v-img id="logo" :src="require('./assets/logo.png')"/>
+      <div style="height: 100%;">
+        <img style="height: 100%;" id="logo" :src="require('./assets/logo.png')"/>
+      </div>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn to="/" flat>O EVENTO</v-btn>
         <v-btn to="/about" flat>PROGRAMAÇÃO</v-btn>
