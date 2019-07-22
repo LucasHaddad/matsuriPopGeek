@@ -1,8 +1,8 @@
 <template>
-  <div class="event">
+  <div class="programming">
     <div class="about">
       <div>
-        <h1>SOBRE</h1>
+        <h1>PROGRAMAÇÃO</h1>
       </div>
       <div>
         <p>Tem temática inspirada em desenhos animados e games. O encontro finalidade
@@ -34,20 +34,20 @@
 
 <style>
 
-.event{
+.programming{
   margin: 60px 0;
 }
 
-.event h1{
+.programming h1{
   font-family: 'Fjalla One', sans-serif;
   margin-bottom: 20px;
 }
 
-.event p{
+.programming p{
   font-size: 2rem;
 }
 
-.event .about{
+.programming .about{
   margin-bottom: 20px;
 }
 

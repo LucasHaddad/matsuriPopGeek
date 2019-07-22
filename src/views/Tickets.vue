@@ -1,8 +1,8 @@
 <template>
-  <div class="event">
+  <div class="tickets">
     <div class="about">
       <div>
-        <h1>SOBRE</h1>
+        <h1>INGRESSOS</h1>
       </div>
       <div>
         <p>Tem temática inspirada em desenhos animados e games. O encontro finalidade
@@ -34,20 +34,20 @@
 
 <style>
 
-.event{
+.tickets{
   margin: 60px 0;
 }
 
-.event h1{
+.tickets h1{
   font-family: 'Fjalla One', sans-serif;
   margin-bottom: 20px;
 }
 
-.event p{
+.tickets p{
   font-size: 2rem;
 }
 
-.event .about{
+.tickets .about{
   margin-bottom: 20px;
 }
 
