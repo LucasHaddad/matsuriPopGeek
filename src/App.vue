@@ -1,6 +1,6 @@
 <template>
   <v-app id="app">
-    <v-toolbar app id="menu">
+    <v-toolbar app id="menu" color=#FFF>
       <v-menu class="hidden-md-and-up">
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list id="side">
