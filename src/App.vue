@@ -38,6 +38,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   background-image: url("./assets/background.png");
+  background-repeat: round;
 }
 
 #menu {
