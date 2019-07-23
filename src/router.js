@@ -14,9 +14,19 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('./views/About.vue'),
+      path: '/event',
+      name: 'event',
+      component: () => import('./views/Event.vue'),
+    },
+    {
+      path: '/schedule',
+      name: 'schedule',
+      component: () => import('./views/Schedule.vue'),
+    },
+    {
+      path: '/ticket',
+      name: 'ticket',
+      component: () => import('./views/Ticket.vue'),
     },
   ],
 });
