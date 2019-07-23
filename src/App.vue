@@ -5,12 +5,15 @@
         <v-menu class="hidden-md-and-up">
           <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
           <v-list id="side">
-            <v-btn to="/" flat>O EVENTO</v-btn>
-            <v-btn to="/about" flat>PROGRAMAÇÃO</v-btn>
-            <v-btn to="/promo" flat>INGRESSOS</v-btn>
+            <v-btn to="/" flat>PROMOÇÃO</v-btn>
+            <v-btn to="/event" flat>O EVENTO</v-btn>
+            <v-btn to="/schedule" flat>PROGRAMAÇÃO</v-btn>
+            <v-btn to="/ticket" flat>INGRESSOS</v-btn>
           </v-list>
         </v-menu>
-        <v-img id="logo" :src="require('./assets/logo.png')"/>
+        <div style="height: 100%;">
+          <img style="height: 100%;" id="logo" :src="require('./assets/logo.png')"/>
+        </div>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
           <v-btn to="/" flat>PROMOÇÃO</v-btn>
@@ -38,6 +41,7 @@
 body {
   margin: 0 auto;
   background-image: url("./assets/background.png");
+  background-repeat: round;
 }
 
 #side {
@@ -48,13 +52,19 @@ body {
 #content {
   top: 90px;
   position: relative;
+  display: block;
 }
 
 #menu {
   position: absolute;
+  display: block;
 }
 
 #app {
   background: inherit;
+}
+
+.v-toolbar {
+  font-family: 'Fjalla One', sans-serif;
 }
 </style>
