@@ -97,7 +97,7 @@
             <li>As normas desta Lei não se aplicam aos eventos Copa do Mundo FIFA de 2014 e Olimpíadas do Rio de Janeiro de 2016.”</li>
           </ol>
           <p>O decreto 8.537/2015 regulamenta a lei nº 12.933/2013 e entra em vigor em 1º de dezembro de 2015. Para ter direito ao benefício da meia-entrada o beneficiário deve apresentar documento comprobatório na compra e entrada do evento.</p>
-          <p>A lei federal assegura 4</p>0% (quarenta por cento) do total de ingressos vendáveis, por categoria, para atendimento aos beneficiários da meia- entrada.
+          <p>A lei federal assegura 40% (quarenta por cento) do total de ingressos vendáveis, por categoria, para atendimento aos beneficiários da meia- entrada.</p>
           <v-expansion-panel>
             <v-expansion-panel-content>
               <template v-slot:header>ESTUDANTE</template>
