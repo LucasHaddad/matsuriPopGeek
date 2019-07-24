@@ -45,7 +45,7 @@
             href="https://www.hbatools.com.br/MATSURI-POP-GEEK-2019__326"
             target="_blank"
         >
-          COMPRAR INGRESSOS
+          <span>COMPRAR INGRESSOS</span>
         </v-btn>
       </v-flex>
     </v-toolbar>
