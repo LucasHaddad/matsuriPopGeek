@@ -17,29 +17,6 @@
           COMPRAR INGRESSOS
         </v-btn>
       </v-flex>
-      <v-container></v-container>
-      <v-divider></v-divider>
-      <v-container></v-container>
-      <v-layout d-flex align-center justify-center column>
-        <h1>MÍDIAS SOCIAIS</h1>
-        <span>
-          <v-flex d-flex row>
-            <v-btn size="24px" text icon href="https://www.facebook.com/MatsuriPopGeek/" target="_blank">
-              <v-img :src="require('../assets/fb.png')"/>
-            </v-btn>
-            <v-btn size="24px" text icon href="https://www.instagram.com/matsuripopgeek/" target="_blank">
-              <v-img :src="require('../assets/insta.png')"/>
-            </v-btn>
-          </v-flex>
-        </span>
-        <v-container>
-          <p><b>NÃO ENCONTROU ALGUMA INFORMAÇÃO?</b> Quer dar alguma sugestão, nos elogiar ou fazer críticas sobre o Matsuri Pop Geek?</p>
-          <p>Entre em contato pelo nosso número de telefone ou e-mail:</p>
-          <p>(31) 3657-4813</p>
-          <p>matsuripopgeek@gmail.com</p>
-          <p><i>Ao mandar seu e-mail para o Matsuri Pop Geek favor se identificar com seu nome e e-mail, para que possamos responder a você no endereço certo. Não esqueça de colocar o assunto! Ele é de suma importância para podermos encaminhar para os departamentos certos.</i></p>
-        </v-container>
-      </v-layout>
     </v-card>
     <v-dialog v-model="eventRules">
       <v-card>
