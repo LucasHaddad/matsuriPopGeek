@@ -23,16 +23,16 @@ export default new Router({
       name: 'schedule',
       component: () => import('./views/Schedule.vue'),
     },
-    // {
-    //   path: '/attraction',
-    //   name: 'attraction',
-    //   component: () => import('./views/Attraction.vue'),
-    // },
-    // {
-    //   path: '/workshop',
-    //   name: 'workshop',
-    //   component: () => import('./views/Workshop.vue'),
-    // },
+    {
+      path: '/attraction',
+      name: 'attraction',
+      component: () => import('./views/Attraction.vue'),
+    },
+    {
+      path: '/workshop',
+      name: 'workshop',
+      component: () => import('./views/Workshop.vue'),
+    },
     {
       path: '/ticket',
       name: 'ticket',

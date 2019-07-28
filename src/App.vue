@@ -22,7 +22,7 @@
             <v-list-tile-title>PROGRAMAÇÃO</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <!-- <v-list-tile to="/attraction">
+        <v-list-tile to="/attraction">
           <v-list-tile-action>
             <v-icon>dashboard</v-icon>
           </v-list-tile-action>
@@ -37,7 +37,7 @@
           <v-list-tile-content>
             <v-list-tile-title>OFICINAS</v-list-tile-title>
           </v-list-tile-content>
-        </v-list-tile> -->
+        </v-list-tile>
         <v-list-tile to="/ticket">
           <v-list-tile-action>
             <v-icon>payment</v-icon>
@@ -57,12 +57,12 @@
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn to="/event" flat tile large>O EVENTO</v-btn>
         <v-btn to="/schedule" flat tile large>PROGRAMAÇÃO</v-btn>
-        <!-- <v-btn to="/attraction" flat tile large>ATRAÇÕES</v-btn>
-        <v-btn to="/workshop" flat tile large>OFICINAS</v-btn> -->
+        <v-btn to="/attraction" flat tile large>ATRAÇÕES</v-btn>
+        <v-btn to="/workshop" flat tile large>OFICINAS</v-btn>
         <v-btn to="/ticket" flat tile large>INGRESSOS</v-btn>
       </v-toolbar-items>
       <v-spacer/>
-      <v-btn color="success" href="https://www.hbatools.com.br/MATSURI-POP-GEEK-2019__326" target="_blank" link tile large>
+      <v-btn color="success" href="https://www.hbatools.com.br/MATSURI-POP-GEEK-2019__326" target="_blank" tile large>
         COMPRAR INGRESSOS
       </v-btn>
     </v-toolbar>
