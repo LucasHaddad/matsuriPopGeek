@@ -139,4 +139,8 @@ body {
   position: relative;
 }
 
+* {
+  word-wrap: break-word;
+}
+
 </style>

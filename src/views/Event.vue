@@ -1,6 +1,8 @@
 <template>
   <v-container fluid grid-list-sm>
-    <v-img :src="require('../assets/promo.png')"/>
+    <div class="promo">
+      <v-img :src="require('../assets/promo_2.png')" max-width="600"/>
+    </div>
     <br/>
     <h1>Promoção</h1>
     <article>
@@ -35,3 +37,11 @@
     </article>  
   </v-container>
 </template>
+
+<style>
+  .promo {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+  }
+</style>
