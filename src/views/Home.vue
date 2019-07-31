@@ -23,15 +23,11 @@
           <v-card
             max-width="300px"
           >
-            <v-list-item>
-              <v-list-item-content>
-                <v-list-item-title class="headline">Thiago Spyked</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
             <v-img
               height="300px"
               :src="require('../assets/spyked.png')"
             ></v-img>
+            <h1>Thiago Spyked</h1>
             <v-card-text>
               O escritor Thiago Spiked , também quadrinista, professor e CEO da editora CraS, estará ao lado dos jovens quadrinistas mineiros (Artist Alley) para expor, comercializar suas obras e trocar experiências.
             </v-card-text>
@@ -41,15 +37,11 @@
           <v-card
             max-width="300px"
           >
-            <v-list-item>
-              <v-list-item-content>
-                <v-list-item-title class="headline">Angie Starling</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
             <v-img
               height="300px"
               :src="require('../assets/angie.png')"
             ></v-img>
+            <h1>Angie Starling</h1>
             <v-card-text>
               Digital Influencer, Cosplayer há mais de 5 anos, Streamer e também YouTuber, Angie estará abrilhantando
 o evento no sábado enquanto interage com o público. No Domingo, no nosso espaço pra Meet and
@@ -61,15 +53,11 @@ Greet para autógrafos, fotografias e conversa!
           <v-card
             max-width="300px"
           >
-            <v-list-item>
-              <v-list-item-content>
-                <v-list-item-title class="headline">Espaço Zion</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
             <v-img
               :src="require('../assets/games.png')"
               height="300px"
             ></v-img>
+            <h1>Espaço Zion</h1>
             <v-card-text>
               Contamos também com campeonatos espetaculares de vários games como Dragon Ball, Fifa, Mortal Kombat e Street Fighter.
             </v-card-text>
@@ -77,66 +65,68 @@ Greet para autógrafos, fotografias e conversa!
         </v-flex>
       </v-layout>
     </v-container>
-    <v-container hidden-md-and-up>
+    <div class="centralize hidden-md-and-up">
       <v-card
         max-width="300px"
       >
-        <v-list-item>
-          <v-list-item-content>
-            <v-list-item-title class="headline">Thiago Spyked</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
         <v-img
           height="300px"
           :src="require('../assets/spyked.png')"
         ></v-img>
-        <v-card-text>
+        <h1>Thiago Spyked</h1>
+        <article>
           O escritor Thiago Spiked , também quadrinista, professor e Ceo da editora CraS, estará ao lado dos jovens quadrinistas mineiros (Artist Alley) para expor, comercializar suas obras e trocar experiências.
-        </v-card-text>
+        </article>
       </v-card>
       <v-container/>
       <v-card
         max-width="300px"
       >
-        <v-list-item>
-          <v-list-item-content>
-            <v-list-item-title class="headline">Angie Starling</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
         <v-img
           height="300px"
           :src="require('../assets/angie.png')"
         ></v-img>
-        <v-card-text>
+        <h1>Angie Starling</h1>
+        <article>
           Digital Influencer, Cosplayer há mais de 5 anos, Streamer e também YouTuber, Angie estará abrilhantando
 o evento no sábado enquanto interage com o público. No Domingo, no nosso espaço pra Meet and
 Greet para autógrafos, fotografias e conversa!
-        </v-card-text>
+        </article>
       </v-card>
       <v-container/>
       <v-card
         max-width="300px"
       >
-        <v-list-item>
-          <v-list-item-content>
-            <v-list-item-title class="headline">Espaço Zion</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
         <v-img
           :src="require('../assets/games.png')"
           height="300px"
         ></v-img>
-        <v-card-text>
+        <h1>Espaço Zion</h1>
+        <article>
           Contamos também com campeonatos espetaculares de vários games como Dragon Ball, Fifa, Mortal Kombat e Street Fighter.
-        </v-card-text>
+        </article>
       </v-card>
-    </v-container>
+    </div>
   </v-container>
 </template>
 
 <style>
+
 .v-card__text {
   display: block;
   height: 200px;
 }
+
+.v-card {
+  text-align: center;
+  width: 300px;
+}
+
+.centralize {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
 </style>

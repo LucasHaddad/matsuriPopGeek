@@ -20,6 +20,10 @@
           </th>
         </tr>
         <tr>
+          <td>13:30</td>
+          <td>Animeke</td>
+        </tr>
+        <tr>
           <td>14:00</td>
           <td>Entrevista com Tiago Spyked</td>
         </tr>
@@ -45,7 +49,7 @@
         </tr>
         <tr>
           <td>17:20</td>
-          <td>Nipo Mania (GRUPO DE J-POP)</td>
+          <td>POP Mania (GRUPO DE J-POP)</td>
         </tr>
         <tr>
           <td>18:30</td>
@@ -64,23 +68,31 @@
           </th>
         </tr>
         <tr>
-          <td>11:30</td>
-          <td>Aikidô</td>
+          <td>11:00</td>
+          <td>POP Mania</td>
         </tr>
         <tr>
           <td>12:00</td>
-          <td>Apresentação de combate com a Liga Mineira de Swordplay</td>
+          <td>Aikidô</td>
         </tr>
         <tr>
-          <td>13:00</td>
+          <td>12:30</td>
           <td>Taikô</td>
         </tr>
         <tr>
+          <td>13:00</td>
+          <td>Bate Papo com Maidy</td>
+        </tr>
+        <tr>
           <td>13:30</td>
-          <td>Bate Papo com Thiago Spyked</td>
+          <td>Yosakoi Soran</td>
         </tr>
         <tr>
           <td>14:00</td>
+          <td>Bate Papo com Thiago Spyked</td>
+        </tr>
+        <tr>
+          <td>14:30</td>
           <td>Concurso Cosplay</td>
         </tr>
           <tr>
@@ -92,7 +104,11 @@
           <td>Apresentação Conselho Jedi de MG</td>
         </tr>
         <tr>
-          <td>17:10</td>
+          <td>16:40</td>
+          <td>Demonstração de Kendama</td>
+        </tr>
+        <tr>
+          <td>16:50</td>
           <td>Premiação Concurso Cosplay e Jogo</td>
         </tr>
         <tr>
