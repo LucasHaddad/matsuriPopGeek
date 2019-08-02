@@ -138,7 +138,6 @@ O novo álbum da banda intitulado -On Death 'n' Dying- está em produção, mas 
 
 .margin1 {
   margin: 15px 15px;
-  height: 95%;
 }
 
 ul {
@@ -156,7 +155,6 @@ ul {
   width: 100%;
   margin: 20px auto;
   background-color: #FFF;
-  height: 350px;
 }
 
 </style>

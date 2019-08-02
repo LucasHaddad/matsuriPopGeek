@@ -2,7 +2,7 @@
   <v-container fluid>
     <div class="hidden-sm-and-down centralize">
       <v-layout class="makeItWhite3">
-        <v-img class="margin" width="300" :src="require('../assets/kpop.png')"/>
+        <v-img class="margin" width="400" :src="require('../assets/kpop.png')"/>
         <div class="margin">
           <article>
             <h1>ESPAÇO K-POP MG</h1>
@@ -25,10 +25,10 @@
             <v-container/>
           </article>
         </div>
-        <v-img class="margin" width="300" :src="require('../assets/francosm.png')"/>
+        <v-img class="margin" width="400" :src="require('../assets/francosm.png')"/>
       </v-layout>
       <v-layout class="makeItWhite3">    
-        <v-img class="margin" width="300" :src="require('../assets/kendama.png')"/>
+        <v-img class="margin" width="400" :src="require('../assets/kendama.png')"/>
         <div class="margin">
           <article>
             <h1>KENDAMA</h1>
@@ -56,7 +56,7 @@
           </article>
         </div>
         <v-spacer/>
-        <v-img class="margin" :src="require('../assets/spyked.png')"/>
+        <v-img class="margin" width="400" :src="require('../assets/spyked.png')"/>
       </v-layout>
     </div>
     <div class="centralize hidden-md-and-up">
@@ -111,11 +111,6 @@
 
 <style>
 
-.v-card {
-  width: 95%;
-  margin: 20px auto;
-}
-
 .centralize {
   display: flex;
   flex-wrap: wrap;
@@ -125,8 +120,7 @@
 
 .makeItWhite3 {
   background-color: #FFF;
-  margin: 10px 10px auto;
-  max-height: 350px;
+  margin: 20px 20px auto;
 }
 
 .margin {
