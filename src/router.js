@@ -39,4 +39,5 @@ export default new Router({
       component: () => import('./views/Ticket.vue'),
     },
   ],
+  scrollBehavior: () => ({ x: 0, y: 0 }),
 });

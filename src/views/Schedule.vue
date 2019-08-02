@@ -9,7 +9,9 @@
       class="hidden-md-and-up"
     ></v-img>
     <div class="schedule">
+      <v-container/>
       <h1> Programação </h1>
+      <v-container/>
       <table>
         <tr>
           <th>
@@ -93,15 +95,15 @@
         </tr>
         <tr>
           <td>14:30</td>
-          <td>Concurso Cosplay</td>
-        </tr>
-          <tr>
-          <td>15:30</td>
           <td>K-pop MG</td>
         </tr>
         <tr>
-          <td>16:30</td>
+          <td>15:30</td>
           <td>Apresentação Conselho Jedi de MG</td>
+        </tr>
+        <tr>
+          <td>15:40</td>
+          <td>Concurso Cosplay</td>
         </tr>
         <tr>
           <td>16:40</td>
@@ -137,6 +139,7 @@ th {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 </style>

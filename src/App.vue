@@ -48,8 +48,14 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app height="90px" color="#FFF">
+    <v-toolbar fixed app color="#FFF" class="hidden-md-and-up">
       <v-toolbar-side-icon @click.stop="drawer=!drawer" class="hidden-md-and-up"/>
+      <v-spacer/>
+      <v-btn color="success" href="https://www.hbatools.com.br/MATSURI-POP-GEEK-2019__326" target="_blank" tile large>
+        COMPRAR INGRESSOS
+      </v-btn>
+    </v-toolbar>
+    <v-toolbar fixed app height="90" color="#FFF" class="hidden-sm-and-down">
       <router-link to="/" tag="div" class="logo hidden-sm-and-down">
         <img class="logo" :src="require('./assets/logo.png')"/>
       </router-link>
@@ -69,8 +75,13 @@
     <v-content>
       <router-view/>
     </v-content>
+    <v-container/>
+    <v-divider/>
+    <v-container/>
     <footer class="footer">
-      <h1>MÍDIAS SOCIAIS</h1>
+      <p>
+        <u>NÃO ENCONTROU ALGUMA INFORMAÇÃO?</u> Quer dar alguma sugestão, nos elogiar ou fazer críticas sobre o Matsuri Pop Geek?
+      </p>
       <v-btn size="24px" text icon href="https://www.facebook.com/MatsuriPopGeek/" target="_blank">
         <v-img :src="require('./assets/fb.png')"/>
       </v-btn>
@@ -78,13 +89,9 @@
         <v-img :src="require('./assets/insta.png')"/>
       </v-btn>
       <p>
-        <u>NÃO ENCONTROU ALGUMA INFORMAÇÃO?</u> Quer dar alguma sugestão, nos elogiar ou fazer críticas sobre o Matsuri Pop Geek?
+        Telefone: (31) 3657-4813 
+        E-mail: matsuripopgeek@gmail.com
       </p>
-      <p>
-        Entre em contato pelo nosso número de telefone ou e-mail:
-        (31) 3657-4813 matsuripopgeek@gmail.com
-      </p>
-      <i>Ao mandar seu e-mail para o Matsuri Pop Geek favor se identificar com seu nome e e-mail, para que possamos responder a você no endereço certo. Não esqueça de colocar o assunto! Ele é de suma importância para podermos encaminhar para os departamentos certos.</i>
     </footer>
   </v-app>
 </template>
@@ -103,8 +110,7 @@ export default {
 <style>
 body {
   margin: 0 auto;
-  background-image: url("./assets/background.png");
-  background-repeat: unset;
+  background-color: #EEE;
   height: 100%;
 }
 
@@ -135,7 +141,6 @@ body {
 
 .footer {
   text-align: center;
-  background-color: #FFF;
   position: relative;
 }
 

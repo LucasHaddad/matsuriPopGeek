@@ -1,8 +1,8 @@
 <template>
   <v-container fluid>
     <div class="hidden-sm-and-down">
-      <v-layout>
-          <v-img class="margin" width="400" :src="require('../assets/ticket.png')"/>
+      <v-layout class="makeItWhite">
+          <v-img class="margin" width="300" :src="require('../assets/ticket.png')"/>
           <div class="margin">
             <p>Os ingressos são diários e individuais, para ir nos dois dias deve comprar 2 ingressos.</p>
             <i>Os Ingressos estarão sendo vendidos no dia do evento na Bilheteria, a partir das 12:30 horas no dia 3/08/2019 e das 10:30 horas no dia 4/08/2019.</i>
@@ -24,17 +24,17 @@
             </v-flex>
           </div>
       </v-layout>
-      <v-layout>
+      <v-layout class="makeItWhite">
         <div class="margin">
           <p>O ingresso social é um benefício para todas as pessoas que não se encaixam nas normas de meia entrada e mesmo assim gostariam de prestigiar o evento, basta doar uma caixa de 1 litro de leite integral. </p>
           <p>Para usufruir desse benefício, basta adquirir o ingresso social, na compra online ou na bilheteria no dia do evento e levar uma caixa de leite que deverá ser entregue na recepção do Matsuri Pop Geek na sua chegada. </p>
           <p>O visitante deverá levar uma caixa de 1 litro de leite por ingresso adquirido. Por exemplo: se o visitante adquiriu 2 ingressos sociais para os dois dias de evento, deverá levar duas caixas de leite. No caso da não entrega da doação na chegada do evento, o ingresso social não é valido e o visitante deverá pagar a diferença de valor do ingresso Inteira. Sendo o valor do ingresso social R$ 25,00 e o ingresso Inteira R$ 36,00, o visitante deverá pagar o equivalente a R$ 11,00 para que sua entrada no evento seja validada.</p>
           <p>Caso se recuse a pagar a diferença de valor estipulada, a entrada no evento não será possível. Do mesmo modo,  o valor pago no ingresso social anteriormente, não será restituído pela Comissão Organizadora do Matsuri Pop Geek. </p>
         </div>
-        <v-img class="margin" width="400" :src="require('../assets/social.png')"/>
+        <v-img class="margin" width="300" :src="require('../assets/social.png')"/>
       </v-layout>
-      <v-layout>    
-        <v-img class="margin" width="400" :src="require('../assets/half.png')"/>
+      <v-layout class="makeItWhite">    
+        <v-img class="margin" width="300" :src="require('../assets/half.png')"/>
         <div class="margin">
           <p>Estudantes</p>
           <p>Idosos</p>
@@ -49,7 +49,7 @@
       </v-layout>
     </div>
     <div class="centralize hidden-md-and-up">
-      <v-card>
+      <v-card class="makeItWhite">
         <v-img :src="require('../assets/ticket.png')"/>
         <article>
           <p>Os ingressos são diários e individuais, para ir nos dois dias deve comprar 2 ingressos.</p>
@@ -73,7 +73,7 @@
         </article>
       </v-card>
       <v-container/>
-      <v-card>
+      <v-card class="makeItWhite">
         <v-img :src="require('../assets/social.png')"/>
         <article>
           <p>O ingresso social é um benefício para todas as pessoas que não se encaixam nas normas de meia entrada e mesmo assim gostariam de prestigiar o evento, basta doar uma caixa de 1 litro de leite integral. </p>
@@ -83,7 +83,7 @@
         </article>
       </v-card>
       <v-container/>
-      <v-card>
+      <v-card class="makeItWhite">
         <v-img :src="require('../assets/half.png')"/>
         <article>
           <p>Estudantes</p>
@@ -106,7 +106,6 @@
         Durante o evento Matsuri Pop Geek estarão isentos de pagar entrada os seguintes públicos:
         <ul>
           <li>Menores de 6 (seis) anos de idade completos.</li>
-          <li>Maiores de 60 (sessenta) anos.</li>
         </ul>
       </article>
     </div>
@@ -120,7 +119,7 @@
 }
 
 .margin {
-  margin: 10px 10px;
+  margin: 10px 10px auto;
 }
 
 ul {
@@ -135,11 +134,12 @@ ul {
 }
 
 .v-card {
-  width: 300px;
+  width: 350px;
+  margin: 20px auto;
 }
 
-div.layout {
-  margin: 10px 0;
+.makeItWhite {
+  margin: 10px 10px auto;
   background-color: #FFF;
 }
 

@@ -18,7 +18,7 @@
     <br/>
     <h1>Principais Atrações</h1>
     <v-container fluid grid-list-sm hidden-sm-and-down>
-      <v-layout wrap>
+      <v-layout wrap class="centralize">
         <v-flex xs4>
           <v-card
             max-width="300px"
